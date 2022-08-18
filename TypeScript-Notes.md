@@ -31,4 +31,6 @@
 * We can specifically mention certain values in combination with **union type** , so if the value matches only then the code will run. 
 * For eg, mentioning the string which we'll useuse so any different string won't be allowed. 
 
-
+### Type alliases
+* We can't store the datatypes in custom name (like variable) by using **type** keyword in place of let, var. 
+* With this we can use that name anywhere we want which looks clean. 
