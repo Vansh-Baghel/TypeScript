@@ -13,3 +13,10 @@
 
 ## Core datatypes
 * Number , boolean and string are the core datatypes in TS
+
+## Object Types
+* It shows the key with its datatype in an object if we hover, this will let us know what type of value is present in the key.
+* We can also specify the type before value respresentation but its not much used.
+
+## Array Types
+* Same as object types, its just for array and when we hover we see the type of value.
