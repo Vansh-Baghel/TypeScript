@@ -20,3 +20,6 @@
 
 ## Array Types
 * Same as object types, its just for array and when we hover we see the type of value.
+
+## Tuple
+* When we have fixed-length of array, then we must use tuple and can specify the datatype before assigning the value. 
