@@ -34,3 +34,12 @@
 ### Type alliases
 * We can't store the datatypes in custom name (like variable) by using **type** keyword in place of let, var. 
 * With this we can use that name anywhere we want which looks clean. 
+
+### Function types
+* We can also use **Function** in place of datatype for any variable or object. 
+* Using Function limits us to just the name of function,we can also pass parameters with datatypes. 
+* The syntax is to use () which will contain any random name for parameter with datatype and **arrow function** which will have value of the output ka datatype. 
+* Using **void** as the output datatype states that function will not **return** any value 
+
+### unknown type
+* If we are not sure and want to add any datatype in future, we can use **unknown** type and can check and then write proper datatype after knowing. 
