@@ -81,3 +81,14 @@
 
 ## Static method imp point
 * Cannot use **this** keyword for static methods , we have to specify the className even if that static method is used inside the class itself.
+
+## Abstract Method
+* Whenever there is a common method inside a class and we dont want the inherited class to use the exact same method (we need small changes) then we use abstract.
+* This doesnt let that method to be inherited , instead we can define it in the class which inherited it.
+
+## Public, Private and Protected
+* These are the terms which we use to control the scope of certain **type** ie which we provide in curly braces to be on safer side.
+* **Public** is type of global type.
+* **Private** is block scope type.
+* **Protected** is too block scope type but the inherited class can also have access to it.
+* This lets us to avoid defining the type everywhere
