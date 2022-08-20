@@ -62,3 +62,19 @@
 ### noEmit
 * Whenever we dont want the output of TS file in JS file, we use this.
 * We can use this whenever we just want to see the output.
+
+### Debuhg in chrome
+* We can start debugging in chrome.
+* For that , turn sourceMap on. Mark a breakpoint, start debug and select chrome.
+* This will help us to use chrome for debugging snd it will take us to the point where that event happened.
+
+### strictNullCheck
+* We have to put **!** after using any element from HTML because strict doesnt read the HTML elements.
+* Another way is to put the code inside **if** statement with the condition of the variable name which stores that querySelector.
+* By putting exclamation mark we say the compiler that we know that this thing exists becuase compiler just see the page code.
+
+# Chp 5
+
+## Inheritance
+* By using **extends** keyword we can use any object inside another object and it will also inherite all the values of it.
+* By using **
