@@ -80,12 +80,16 @@
 * By using **extends** keyword we can use any object inside another object and it will also inherite all the values of it.
 * By using **super** we can have access to the parent class ka constructor.
 
+## Functions/ Methods
+* We describe the type of parameter inside the brackets itself, unlike classes where we describe in curly braces.
+
 ## Static method imp point
 * Cannot use **this** keyword for static methods , we have to specify the className even if that static method is used inside the class itself.
 
 ## Abstract Method
 * Whenever there is a common method inside a class and we dont want the inherited class to use the exact same method (we need small changes) then we use abstract.
 * This doesnt let that method to be inherited , instead we can define it in the class which inherited it.
+* It returns the void value, and behave like functions.
 
 ## Public, Private and Protected
 * These are the terms which we use to control the scope of certain **type** ie which we provide in curly braces to be on safer side.
