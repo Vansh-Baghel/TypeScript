@@ -96,5 +96,13 @@
 * **Public** is type of global type.
 * **Private** is block scope type.
 * **Protected** is too block scope type but the inherited class can also have access to it.
-* This lets us to avoid defining the type everywhere
+* This lets us to avoid defining the type everywhere.
 
+# Chp 6
+## Intersection Types
+* We can define more than one inheritance by separating them using **, (comma)**.
+* We can describe more than one **type alliase** by separating them with **& (AND operator)** or **| (OR operator)**.
+ 
+## Guards
+* If we are using **intersection types** then there is a scenario where some variables/methods represent in one and absent in another simultaneously, then this concept come in.
+* We use **in** keyword in **if** condition where we specify the **method name** with the **type** name.
