@@ -109,4 +109,9 @@
 
 ## Type Casting
 * Manier times certain property of HTML is not read by the TS file, we need to specify that  property belongs to HTMLthe.
-* We use open and close tab and in between we specify it like <HTMLinputElement>document.que... or we use **as** keyword like document.que..() as HTMLinputElement.
+* We use open and close tab and in between we specify it like */<HTMLinputElement/>document.que...* or we use **as** keyword like document.que..() as HTMLinputElement.
+ 
+ ## Function overloading
+ * We can specify more than one type on the same function with the output type too.
+ * Same function names with different parameters and types, basically including more than one type for same function parameters.
+ * 
