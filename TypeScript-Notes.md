@@ -77,4 +77,7 @@
 
 ## Inheritance
 * By using **extends** keyword we can use any object inside another object and it will also inherite all the values of it.
-* By using **
+* By using **super** we can have access to the parent class ka constructor.
+
+## Static method imp point
+* Cannot use **this** keyword for static methods , we have to specify the className even if that static method is used inside the class itself.
