@@ -118,7 +118,8 @@
  # Chp 7 :- Generics
  
  * It provides better **type** description for **arrays & promises**.
- * In **array**, we specify the type using square brackets like **string[]** but we can also specify it using **Array/<string/>**.
+ * In **array**, we specify the type using square brackets like **string[]** but we can also specify it using **Array/<string/>** which sometimes is not sufficient. 
+ * We don't know the type, and if we use *any* then after creating the variable still the type shown will be any . We want the type to be shown which is specified and also to set as any while assigning it, here generic comes into play. 
  * We can also create generic functions. 
 
 ## Creating Generic Function
