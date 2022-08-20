@@ -106,3 +106,7 @@
 ## Guards
 * If we are using **intersection types** then there is a scenario where some variables/methods represent in one and absent in another simultaneously, then this concept come in.
 * We use **in** keyword in **if** condition where we specify the **method name** with the **type** name.
+
+## Type Casting
+* Manier times certain property of HTML is not read by the TS file, we need to specify that  property belongs to HTMLthe.
+* We use open and close tab and in between we specify it like <HTMLinputElement>document.que... or we use **as** keyword like document.que..() as HTMLinputElement.
