@@ -114,4 +114,18 @@
  ## Function overloading
  * We can specify more than one type on the same function with the output type too.
  * Same function names with different parameters and types, basically including more than one type for same function parameters.
- * 
+ 
+ # Chp 7 :- Generics
+ 
+ * It provides better **type** description for **arrays & promises**.
+ * In **array**, we specify the type using square brackets like **string[]** but we can also specify it using **Array/<string/>**.
+ * We can also create generic functions. 
+
+## Creating Generic Function
+* While describing objects, we couldn't call it like **function abc(x: object, y:object)** because in this we couldn't describe the type property for the output and input. 
+* We need to use generic function by open-close brackets and using **T or U** for the type. 
+* This **T or U** will tell that the output will be the intersection,and also the value while calling the function will be of any type. 
+* 
+ 
+
+ 
