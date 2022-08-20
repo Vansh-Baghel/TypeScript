@@ -126,7 +126,17 @@
 * While describing objects, we couldn't call it like **function abc(x: object, y:object)** because in this we couldn't describe the type property for the output and input. 
 * We need to use generic function by open-close brackets and using **T or U** for the type. 
 * This **T or U** will tell that the output will be the intersection,and also the value while calling the function will be of any type. 
+* We can also use **extends** to specify the types and can also use opertors for more types. 
 
- 
+## Generic VS union types
+* Union is like saying to use anyone of the specified types , and generic is like to use the only one which is specified. 
+ * Generic type must be used when we need whole function to have types from  some specified ones. 
+ * Union type must be used when we need any of the types throughout the function , like it can keep changing. 
 
- 
+# Chp 8 :- Decorators
+> To use decorators, adjust the config. json file and turn **experimentalDecorators** as true. 
+> To call decorators, we use **@**.
+
+## Decorator Factory
+* Here we use and return a new function inside a function. 
+* While calling the decorator, we can pass values as argument's values if use decorator factory. 
