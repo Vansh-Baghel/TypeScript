@@ -117,7 +117,7 @@
  
  # Chp 7 :- Generics
  
- * It provides better **type** description for **arrays & promises**.
+ * It provides better **type** description for **arrays in function & promises**.
  * In **array**, we specify the type using square brackets like **string[]** but we can also specify it using **Array/<string/>** which sometimes is not sufficient. 
  * We don't know the type, and if we use *any* then after creating the variable still the type shown will be any . We want the type to be shown which is specified and also to set as any while assigning it, here generic comes into play. 
  * We can also create generic functions. 
@@ -126,7 +126,7 @@
 * While describing objects, we couldn't call it like **function abc(x: object, y:object)** because in this we couldn't describe the type property for the output and input. 
 * We need to use generic function by open-close brackets and using **T or U** for the type. 
 * This **T or U** will tell that the output will be the intersection,and also the value while calling the function will be of any type. 
-* 
+
  
 
  
