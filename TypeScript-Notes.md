@@ -73,7 +73,8 @@
 * Another way is to put the code inside **if** statement with the condition of the variable name which stores that querySelector.
 * By putting exclamation mark we say the compiler that we know that this thing exists becuase compiler just see the page code.
 
-# Chp 5
+# Chp 5 :- Class
+
 
 ## Inheritance
 * By using **extends** keyword we can use any object inside another object and it will also inherite all the values of it.
@@ -92,3 +93,4 @@
 * **Private** is block scope type.
 * **Protected** is too block scope type but the inherited class can also have access to it.
 * This lets us to avoid defining the type everywhere
+
