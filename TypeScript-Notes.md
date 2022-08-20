@@ -43,3 +43,11 @@
 
 ### unknown type
 * If we are not sure and want to add any datatype in future, we can use **unknown** type and can check and then write proper datatype after knowing. 
+
+## tsc --init
+* This command allows us to view the resources of TS file
+
+### sourceMap
+* This lets us get the TS file in inspect .
+
+
