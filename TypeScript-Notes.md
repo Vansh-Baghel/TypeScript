@@ -50,4 +50,15 @@
 ### sourceMap
 * This lets us get the TS file in inspect .
 
+### outDir and rootDir
 
+* Any newly added files will automatically go in the outDit folder which we might not need everytime.
+* **outDir** allows us to specify an external folder for all the JS files
+* **rootDir** allows us to mention that the newly added files must nit move to outzDir automatically.
+
+### removeComment
+* It doesnt add comment in JS file whenever we added comment in TS file.
+
+### noEmit
+* Whenever we dont want the output of TS file in JS file, we use this.
+* We can use this whenever we just want to see the output.
