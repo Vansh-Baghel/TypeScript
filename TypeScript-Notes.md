@@ -193,7 +193,7 @@
 ## Lodash Library
 * We can use this library to use different utility functions.
 * We need to **import** and **save** using terminal commands to make it work.
-
+* 2 more libraries are class-transformer and class-validator which u must explore.
 
 
 
