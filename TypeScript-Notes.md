@@ -136,10 +136,16 @@
 # Chp 8 :- Decorators
 > To use decorators, adjust the config. json file and turn **experimentalDecorators** as true. 
 * To call decorators, we use **@**.
-* It is one line code where we use class, and get the big output according to the class. 
+* We can use functions or classes as decorators at different places. 
+* Decorators can be used as parameters, accessors, method or property decorators. 
+* 
 
 ## Decorator Factory
 * Here we use and return a new function inside a function. 
 * While calling the decorator function we can pass values as argument's values only if we use decorator factory . 
+
+
+
+
 
 
