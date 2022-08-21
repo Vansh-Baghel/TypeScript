@@ -180,14 +180,19 @@
 * It must contain **entry** (specifies the 1st ts file) , **output** which control the new file path and name.
 * Specifying path is kinda of different in node js so look check it out.
 * **devtool** , **module** which must contain rules, **resolve** for extensions .
-* 
+
 
 ## How to use
 * Go in package.json and add a script which is **"build": "webpack"**.
 
+## Production and Development
+* We need to add **mode** in webpack.config and mention production or development.
+* We need to add a plugin for production which is *clean webpack plugin* which will remove all files inside webpack's output.path directory, as well as all unused webpack.
+* We can set the *devtool* as none as we dont want debug while production.
 
-
-
+## Lodash Library
+* We can use this library to use different utility functions.
+* We need to **import** and **save** using terminal commands to make it work.
 
 
 
