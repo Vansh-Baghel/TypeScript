@@ -167,5 +167,29 @@
 * We can also change its name and use that changed name in that particular file if we want . This is done by using **as** keyword.
 
 # Chp 11 :- Webpacks
+* It reduce the HTTP requests when we create more files by import and export.
+* It is a website which helps in bundling our code
+
+## Changes to be made
+* Remove all the .js extension from the import statements.
+* Dont need to use rootDir in the config file as webpack will look after it.
+* Create **webpack.config.js** file.
+
+## Webpack config file 
+* It uses node js format to write code in it.
+* It must contain **entry** (specifies the 1st ts file) , **output** which control the new file path and name.
+* Specifying path is kinda of different in node js so look check it out.
+* **devtool** , **module** which must contain rules, **resolve** for extensions .
+* 
+
+## How to use
+* Go in package.json and add a script which is **"build": "webpack"**.
+
+
+
+
+
+
+
 
 
