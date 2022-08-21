@@ -1,4 +1,7 @@
 # Chp 2
+## Trans-piled
+* This is the process where TS file gets converted into JS file 
+
 ## Core types
 
 ### Type assignment
@@ -147,8 +150,20 @@
 ## bind method
 
 * We need to use bind method whenever we want to call a function inside the addEventListener because this keyword work differently in it.
-* 
 
+
+# Chp 10 :- Module And Namespace
+
+## export,import and araanging files
+> Change the target to *es6* and module to *es2015* in the config file . 
+> In HTML file, specify that *type='module'* with the src.
+* We use export and import keyword to link different files and to distribute the lines of codes for big projects.
+* While importing, dont use .ts extension, use **.js** .
+* Import only those components which are needed to keep the code cleaner.
+
+## import
+* While importing we have to specify the name of variable or function we want to import.
+* We can also change its name and use that changed name in that particular file if we want . This is done by using **as** keyword.
 
 
 
