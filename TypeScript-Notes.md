@@ -152,7 +152,8 @@
 * We need to use bind method whenever we want to call a function inside the addEventListener because this keyword work differently in it.
 
 
-# Chp 10 :- Module And Namespace
+# Chp 10 :- ES Module 
+* The more the files, more will be the run time (which we dont need).
 
 ## export,import and araanging files
 > Change the target to *es6* and module to *es2015* in the config file . 
@@ -165,5 +166,6 @@
 * While importing we have to specify the name of variable or function we want to import.
 * We can also change its name and use that changed name in that particular file if we want . This is done by using **as** keyword.
 
+# Chp 11 :- Webpacks
 
 
